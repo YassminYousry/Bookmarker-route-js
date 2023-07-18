@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e4f52dabe5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bookmark</title>
+</head>
+<body class="bg-black">
+    <div class="container my-5 rounded-4 text-white home">
+        <section id="title" class="text-center py-5">
+            <h1 class="">Bookmarker</h1>
+        </section>
+        <section id="title-2" class="text-center pt-5">
+            <h3 class=""><i class="fa-regular fa-bookmark"></i>
+                Bookmark your favorite sites <i class="fa-regular fa-bookmark"></i></h3>
+        </section>
+        <section id="data-inputs" class="py-4">
+            <div class="p-4">
+                <div class="px-3">
+                    <label for="site-name" class="ms-2"><i class="fa-solid fa-book-bookmark me-1"></i> Site Name</label>
+                <input class="input-group rounded border-0 mt-2 mb-4 py-1 px-2 " type="text" name="site-name" id="site-name" placeholder="Bookmark Name">
+
+                <label for="site-url" class="ms-2"><i class="fa-solid fa-link me-1"></i> Site URL</label>
+                <input class="input-group rounded border-0 mt-2 mb-4 py-1 px-2 " type="text" name="site-url" id="site-url" placeholder="Website URL">
+                </div>
+
+                <div class="pt-3 text-center">
+                    <button type="submit" class="btn btn-outline-primary  px-5">Submit</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="data-table" class="py-4">
+            <div class="p-3">
+                <table class="table text-center text-white">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Index</th>
+                            <th class="col-5">Website Name</th>
+                            <th>Visit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td><button class="btn btn-outline-primary"><i class="fa-solid fa-eye"></i> Visit</button></td>
+                            <td><button class="btn btn-outline-primary"><i class="fa-solid fa-trash"></i> Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
