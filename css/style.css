@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 
-*{
+* {
     font-family: 'Tektur', cursive;
     --bs-body-bg: #000;
 }
+.form-control, .form-control:focus{
+    background-color: #ffffff;
+}
+
 .home {
     background-color: #000;
     box-shadow: 0 0 5px #008cff,
@@ -13,35 +17,44 @@
         0 0 30px #008cff,
         0 0 50px #008cffbd;
 }
-#title, #data-inputs{
+
+#title,
+#data-inputs {
     border-bottom: 2px dashed #008cff;
 }
-#title h1{
+
+#title h1 {
     color: #1470bc;
     text-shadow: 0 0 5px #ffffff,
-    0 0 10px #ffffff,
-    0 0 10px #008cff,
-    0 0 10px #ffffff;
+        0 0 5px #ffffff,
+        0 0 5px #ffffff,
+        0 0 10px #008cff,
+        0 0 10px #ffffff;
 }
-#data-inputs i{
+
+#data-inputs i {
     color: #0661ab;
 }
-#title-2 i{
+
+#title-2 i {
     color: #0661ab;
     text-shadow: 0 0 3px #fff,
-    0 0 3px #fff,
-    0 0 5px #fff;
+        0 0 3px #fff,
+        0 0 5px #fff;
 }
-#data-inputs button{
+
+#data-inputs button {
     box-shadow: 0 0 5px #fff,
-    0 0 5px #008cff,
-    0 0 10px #008cff,
-    0 0 5px #ffffff;
+        0 0 5px #008cff,
+        0 0 10px #008cff,
+        0 0 5px #ffffff;
 }
-.table>:not(caption)>*>*{
+
+.table>:not(caption)>*>* {
     color: #fff;
     border-color: #008cff;
 }
-.table tbody td{
+
+.table tbody td {
     border: none;
 }
